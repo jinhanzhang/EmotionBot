@@ -26,11 +26,11 @@
   "target_modules": [
     "v_proj",
     "k_proj",
-    "gate_proj",
-    "q_proj",
     "o_proj",
+    "down_proj",
     "up_proj",
-    "down_proj"
+    "gate_proj",
+    "q_proj"
   ],
   "task_type": "CAUSAL_LM",
   "trainable_token_indices": null,
